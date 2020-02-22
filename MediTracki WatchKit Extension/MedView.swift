@@ -28,9 +28,9 @@ class InterfaceController: WKInterfaceController {
                        print("The button was tapped!")
                    }
         }
-
+/*/Users/monicaklosin/Desktop/Medication Reminder/MedTracker/MedTaker WatchKit Extension/MedView.swift
 struct MedView_Previews: PreviewProvider {
     static var previews: some View {
         MedView()
     }
-}
+}*/

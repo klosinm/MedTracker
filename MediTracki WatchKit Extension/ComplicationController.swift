@@ -1,6 +1,6 @@
 //
 //  ComplicationController.swift
-//  MedTaker WatchKit Extension
+//  MediTracki WatchKit Extension
 //
 //  Created by Monica Klosin on 2/22/20.
 //  Copyright © 2020 Monica Klosin. All rights reserved.

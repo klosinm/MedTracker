@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED17B7E52401BDB00033BC92 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B7E42401BDB00033BC92 /* Timer.swift */; };
+		ED17B7EC2401D37E0033BC92 /* MediTracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ED17B7EB2401D37E0033BC92 /* MediTracker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED17B7FB2401D3800033BC92 /* MediTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ED17B7FA2401D3800033BC92 /* MediTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED17B8212401D3AD0033BC92 /* MediTracki WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ED17B8202401D3AD0033BC92 /* MediTracki WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED17B8272401D3AD0033BC92 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED17B8252401D3AD0033BC92 /* Interface.storyboard */; };
+		ED17B8292401D3AE0033BC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED17B8282401D3AE0033BC92 /* Assets.xcassets */; };
+		ED17B8302401D3AE0033BC92 /* MediTracki WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ED17B82F2401D3AE0033BC92 /* MediTracki WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED17B8352401D3AE0033BC92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B8342401D3AE0033BC92 /* ContentView.swift */; };
+		ED17B8372401D3AE0033BC92 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B8362401D3AE0033BC92 /* HostingController.swift */; };
+		ED17B8392401D3AE0033BC92 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B8382401D3AE0033BC92 /* ExtensionDelegate.swift */; };
+		ED17B83B2401D3AE0033BC92 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B83A2401D3AE0033BC92 /* NotificationController.swift */; };
+		ED17B83D2401D3AE0033BC92 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B83C2401D3AE0033BC92 /* NotificationView.swift */; };
+		ED17B83F2401D3AE0033BC92 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B83E2401D3AE0033BC92 /* ComplicationController.swift */; };
+		ED17B8412401D3AF0033BC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED17B8402401D3AF0033BC92 /* Assets.xcassets */; };
+		ED17B8442401D3AF0033BC92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED17B8432401D3AF0033BC92 /* Preview Assets.xcassets */; };
+		ED17B8532401D3D80033BC92 /* SelectTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B8522401D3D80033BC92 /* SelectTime.swift */; };
+		ED17B8552401D3ED0033BC92 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B8542401D3ED0033BC92 /* Timer.swift */; };
+		ED17B8572401D4070033BC92 /* MedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B8562401D4070033BC92 /* MedView.swift */; };
 		EDCCA4C924017A31001E7960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4C824017A31001E7960 /* AppDelegate.swift */; };
 		EDCCA4CB24017A31001E7960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4CA24017A31001E7960 /* SceneDelegate.swift */; };
 		EDCCA4CD24017A31001E7960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4CC24017A31001E7960 /* ContentView.swift */; };
@@ -17,22 +33,38 @@
 		EDCCA4E024017A33001E7960 /* Medication_ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4DF24017A33001E7960 /* Medication_ReminderTests.swift */; };
 		EDCCA4EB24017A33001E7960 /* Medication_ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4EA24017A33001E7960 /* Medication_ReminderUITests.swift */; };
 		EDCCA4FE24017A69001E7960 /* MedTaker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EDCCA4FD24017A69001E7960 /* MedTaker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EDCCA50424017A69001E7960 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA50224017A69001E7960 /* Interface.storyboard */; };
-		EDCCA50624017A6A001E7960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA50524017A6A001E7960 /* Assets.xcassets */; };
 		EDCCA50D24017A6B001E7960 /* MedTaker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDCCA50C24017A6B001E7960 /* MedTaker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EDCCA51224017A6B001E7960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51124017A6B001E7960 /* ContentView.swift */; };
-		EDCCA51424017A6B001E7960 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51324017A6B001E7960 /* HostingController.swift */; };
-		EDCCA51624017A6B001E7960 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51524017A6B001E7960 /* ExtensionDelegate.swift */; };
-		EDCCA51824017A6B001E7960 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51724017A6B001E7960 /* NotificationController.swift */; };
-		EDCCA51A24017A6B001E7960 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51924017A6B001E7960 /* NotificationView.swift */; };
-		EDCCA51C24017A6B001E7960 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51B24017A6B001E7960 /* ComplicationController.swift */; };
-		EDCCA51E24017A6B001E7960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA51D24017A6B001E7960 /* Assets.xcassets */; };
-		EDCCA52124017A6B001E7960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA52024017A6B001E7960 /* Preview Assets.xcassets */; };
-		EDCCA530240183C3001E7960 /* MedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA52F240183C3001E7960 /* MedView.swift */; };
-		EDCCA5322401856F001E7960 /* SelectTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA5312401856F001E7960 /* SelectTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		ED17B7ED2401D37E0033BC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED17B7EA2401D37E0033BC92;
+			remoteInfo = "MediTracker WatchKit App";
+		};
+		ED17B7FC2401D3800033BC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED17B7F92401D3800033BC92;
+			remoteInfo = "MediTracker WatchKit Extension";
+		};
+		ED17B8222401D3AD0033BC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED17B81F2401D3AD0033BC92;
+			remoteInfo = "MediTracki WatchKit App";
+		};
+		ED17B8312401D3AE0033BC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED17B82E2401D3AE0033BC92;
+			remoteInfo = "MediTracki WatchKit Extension";
+		};
 		EDCCA4DC24017A33001E7960 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
@@ -64,6 +96,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		ED17B8122401D3810033BC92 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ED17B7EC2401D37E0033BC92 /* MediTracker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B8152401D3810033BC92 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED17B7FB2401D3800033BC92 /* MediTracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B84A2401D3AF0033BC92 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED17B8302401D3AE0033BC92 /* MediTracki WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B84E2401D3AF0033BC92 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ED17B8212401D3AD0033BC92 /* MediTracki WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDCCA52724017A6B001E7960 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,7 +165,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ED17B7E42401BDB00033BC92 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		ED17B7E82401D37E0033BC92 /* MediTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED17B7EB2401D37E0033BC92 /* MediTracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MediTracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED17B7FA2401D3800033BC92 /* MediTracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MediTracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED17B81D2401D3AD0033BC92 /* MediTracki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediTracki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED17B8202401D3AD0033BC92 /* MediTracki WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MediTracki WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED17B8262401D3AD0033BC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		ED17B8282401D3AE0033BC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED17B82A2401D3AE0033BC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED17B82F2401D3AE0033BC92 /* MediTracki WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MediTracki WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED17B8342401D3AE0033BC92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED17B8362401D3AE0033BC92 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		ED17B8382401D3AE0033BC92 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		ED17B83A2401D3AE0033BC92 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		ED17B83C2401D3AE0033BC92 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		ED17B83E2401D3AE0033BC92 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		ED17B8402401D3AF0033BC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED17B8432401D3AF0033BC92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED17B8452401D3AF0033BC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED17B8462401D3AF0033BC92 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ED17B8522401D3D80033BC92 /* SelectTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTime.swift; sourceTree = "<group>"; };
+		ED17B8542401D3ED0033BC92 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		ED17B8562401D4070033BC92 /* MedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedView.swift; sourceTree = "<group>"; };
 		EDCCA4C524017A31001E7960 /* Medication Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medication Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCCA4C824017A31001E7960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCCA4CA24017A31001E7960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,25 +203,24 @@
 		EDCCA4EC24017A33001E7960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDCCA4FA24017A69001E7960 /* MedTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCCA4FD24017A69001E7960 /* MedTaker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MedTaker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDCCA50324017A69001E7960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		EDCCA50524017A6A001E7960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDCCA50724017A6A001E7960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDCCA50C24017A6B001E7960 /* MedTaker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MedTaker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDCCA51124017A6B001E7960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EDCCA51324017A6B001E7960 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
-		EDCCA51524017A6B001E7960 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		EDCCA51724017A6B001E7960 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		EDCCA51924017A6B001E7960 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		EDCCA51B24017A6B001E7960 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		EDCCA51D24017A6B001E7960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDCCA52024017A6B001E7960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EDCCA52224017A6B001E7960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDCCA52324017A6B001E7960 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		EDCCA52F240183C3001E7960 /* MedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedView.swift; sourceTree = "<group>"; };
-		EDCCA5312401856F001E7960 /* SelectTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		ED17B7F72401D3800033BC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B82C2401D3AE0033BC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDCCA4C224017A31001E7960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,14 +252,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED17B8242401D3AD0033BC92 /* MediTracki WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B8252401D3AD0033BC92 /* Interface.storyboard */,
+				ED17B8282401D3AE0033BC92 /* Assets.xcassets */,
+				ED17B82A2401D3AE0033BC92 /* Info.plist */,
+			);
+			path = "MediTracki WatchKit App";
+			sourceTree = "<group>";
+		};
+		ED17B8332401D3AE0033BC92 /* MediTracki WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B8342401D3AE0033BC92 /* ContentView.swift */,
+				ED17B8522401D3D80033BC92 /* SelectTime.swift */,
+				ED17B8542401D3ED0033BC92 /* Timer.swift */,
+				ED17B8362401D3AE0033BC92 /* HostingController.swift */,
+				ED17B8382401D3AE0033BC92 /* ExtensionDelegate.swift */,
+				ED17B83A2401D3AE0033BC92 /* NotificationController.swift */,
+				ED17B83C2401D3AE0033BC92 /* NotificationView.swift */,
+				ED17B83E2401D3AE0033BC92 /* ComplicationController.swift */,
+				ED17B8402401D3AF0033BC92 /* Assets.xcassets */,
+				ED17B8452401D3AF0033BC92 /* Info.plist */,
+				ED17B8462401D3AF0033BC92 /* PushNotificationPayload.apns */,
+				ED17B8422401D3AF0033BC92 /* Preview Content */,
+				ED17B8562401D4070033BC92 /* MedView.swift */,
+			);
+			path = "MediTracki WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ED17B8422401D3AF0033BC92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B8432401D3AF0033BC92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		EDCCA4BC24017A31001E7960 = {
 			isa = PBXGroup;
 			children = (
 				EDCCA4C724017A31001E7960 /* Medication Reminder */,
 				EDCCA4DE24017A33001E7960 /* Medication ReminderTests */,
 				EDCCA4E924017A33001E7960 /* Medication ReminderUITests */,
-				EDCCA50124017A69001E7960 /* MedTaker WatchKit App */,
-				EDCCA51024017A6B001E7960 /* MedTaker WatchKit Extension */,
+				ED17B8242401D3AD0033BC92 /* MediTracki WatchKit App */,
+				ED17B8332401D3AE0033BC92 /* MediTracki WatchKit Extension */,
 				EDCCA4C624017A31001E7960 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -177,6 +311,12 @@
 				EDCCA4FA24017A69001E7960 /* MedTaker.app */,
 				EDCCA4FD24017A69001E7960 /* MedTaker WatchKit App.app */,
 				EDCCA50C24017A6B001E7960 /* MedTaker WatchKit Extension.appex */,
+				ED17B7E82401D37E0033BC92 /* MediTracker.app */,
+				ED17B7EB2401D37E0033BC92 /* MediTracker WatchKit App.app */,
+				ED17B7FA2401D3800033BC92 /* MediTracker WatchKit Extension.appex */,
+				ED17B81D2401D3AD0033BC92 /* MediTracki.app */,
+				ED17B8202401D3AD0033BC92 /* MediTracki WatchKit App.app */,
+				ED17B82F2401D3AE0033BC92 /* MediTracki WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,47 +361,111 @@
 			path = "Medication ReminderUITests";
 			sourceTree = "<group>";
 		};
-		EDCCA50124017A69001E7960 /* MedTaker WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				EDCCA50224017A69001E7960 /* Interface.storyboard */,
-				EDCCA50524017A6A001E7960 /* Assets.xcassets */,
-				EDCCA50724017A6A001E7960 /* Info.plist */,
-			);
-			path = "MedTaker WatchKit App";
-			sourceTree = "<group>";
-		};
-		EDCCA51024017A6B001E7960 /* MedTaker WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				EDCCA51124017A6B001E7960 /* ContentView.swift */,
-				EDCCA5312401856F001E7960 /* SelectTime.swift */,
-				ED17B7E42401BDB00033BC92 /* Timer.swift */,
-				EDCCA52F240183C3001E7960 /* MedView.swift */,
-				EDCCA51324017A6B001E7960 /* HostingController.swift */,
-				EDCCA51524017A6B001E7960 /* ExtensionDelegate.swift */,
-				EDCCA51724017A6B001E7960 /* NotificationController.swift */,
-				EDCCA51924017A6B001E7960 /* NotificationView.swift */,
-				EDCCA51B24017A6B001E7960 /* ComplicationController.swift */,
-				EDCCA51D24017A6B001E7960 /* Assets.xcassets */,
-				EDCCA52224017A6B001E7960 /* Info.plist */,
-				EDCCA52324017A6B001E7960 /* PushNotificationPayload.apns */,
-				EDCCA51F24017A6B001E7960 /* Preview Content */,
-			);
-			path = "MedTaker WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		EDCCA51F24017A6B001E7960 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EDCCA52024017A6B001E7960 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		ED17B7E72401D37E0033BC92 /* MediTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED17B81A2401D3810033BC92 /* Build configuration list for PBXNativeTarget "MediTracker" */;
+			buildPhases = (
+				ED17B7E62401D37E0033BC92 /* Resources */,
+				ED17B8122401D3810033BC92 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED17B7EE2401D37E0033BC92 /* PBXTargetDependency */,
+			);
+			name = MediTracker;
+			productName = MediTracker;
+			productReference = ED17B7E82401D37E0033BC92 /* MediTracker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		ED17B7EA2401D37E0033BC92 /* MediTracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED17B8192401D3810033BC92 /* Build configuration list for PBXNativeTarget "MediTracker WatchKit App" */;
+			buildPhases = (
+				ED17B7E92401D37E0033BC92 /* Resources */,
+				ED17B8152401D3810033BC92 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED17B7FD2401D3800033BC92 /* PBXTargetDependency */,
+			);
+			name = "MediTracker WatchKit App";
+			productName = "MediTracker WatchKit App";
+			productReference = ED17B7EB2401D37E0033BC92 /* MediTracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		ED17B7F92401D3800033BC92 /* MediTracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED17B8182401D3810033BC92 /* Build configuration list for PBXNativeTarget "MediTracker WatchKit Extension" */;
+			buildPhases = (
+				ED17B7F62401D3800033BC92 /* Sources */,
+				ED17B7F72401D3800033BC92 /* Frameworks */,
+				ED17B7F82401D3800033BC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MediTracker WatchKit Extension";
+			productName = "MediTracker WatchKit Extension";
+			productReference = ED17B7FA2401D3800033BC92 /* MediTracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		ED17B81C2401D3AD0033BC92 /* MediTracki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED17B84F2401D3AF0033BC92 /* Build configuration list for PBXNativeTarget "MediTracki" */;
+			buildPhases = (
+				ED17B81B2401D3AD0033BC92 /* Resources */,
+				ED17B84E2401D3AF0033BC92 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED17B8232401D3AD0033BC92 /* PBXTargetDependency */,
+			);
+			name = MediTracki;
+			productName = MediTracki;
+			productReference = ED17B81D2401D3AD0033BC92 /* MediTracki.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		ED17B81F2401D3AD0033BC92 /* MediTracki WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED17B84B2401D3AF0033BC92 /* Build configuration list for PBXNativeTarget "MediTracki WatchKit App" */;
+			buildPhases = (
+				ED17B81E2401D3AD0033BC92 /* Resources */,
+				ED17B84A2401D3AF0033BC92 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED17B8322401D3AE0033BC92 /* PBXTargetDependency */,
+			);
+			name = "MediTracki WatchKit App";
+			productName = "MediTracki WatchKit App";
+			productReference = ED17B8202401D3AD0033BC92 /* MediTracki WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		ED17B82E2401D3AE0033BC92 /* MediTracki WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED17B8472401D3AF0033BC92 /* Build configuration list for PBXNativeTarget "MediTracki WatchKit Extension" */;
+			buildPhases = (
+				ED17B82B2401D3AE0033BC92 /* Sources */,
+				ED17B82C2401D3AE0033BC92 /* Frameworks */,
+				ED17B82D2401D3AE0033BC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MediTracki WatchKit Extension";
+			productName = "MediTracki WatchKit Extension";
+			productReference = ED17B82F2401D3AE0033BC92 /* MediTracki WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		EDCCA4C424017A31001E7960 /* Medication Reminder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCCA4EF24017A33001E7960 /* Build configuration list for PBXNativeTarget "Medication Reminder" */;
@@ -376,6 +580,24 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Monica Klosin";
 				TargetAttributes = {
+					ED17B7E72401D37E0033BC92 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ED17B7EA2401D37E0033BC92 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ED17B7F92401D3800033BC92 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ED17B81C2401D3AD0033BC92 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ED17B81F2401D3AD0033BC92 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ED17B82E2401D3AE0033BC92 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					EDCCA4C424017A31001E7960 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -417,11 +639,63 @@
 				EDCCA4F924017A69001E7960 /* MedTaker */,
 				EDCCA4FC24017A69001E7960 /* MedTaker WatchKit App */,
 				EDCCA50B24017A6B001E7960 /* MedTaker WatchKit Extension */,
+				ED17B7E72401D37E0033BC92 /* MediTracker */,
+				ED17B7EA2401D37E0033BC92 /* MediTracker WatchKit App */,
+				ED17B7F92401D3800033BC92 /* MediTracker WatchKit Extension */,
+				ED17B81C2401D3AD0033BC92 /* MediTracki */,
+				ED17B81F2401D3AD0033BC92 /* MediTracki WatchKit App */,
+				ED17B82E2401D3AE0033BC92 /* MediTracki WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		ED17B7E62401D37E0033BC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B7E92401D37E0033BC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B7F82401D3800033BC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B81B2401D3AD0033BC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B81E2401D3AD0033BC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED17B8292401D3AE0033BC92 /* Assets.xcassets in Resources */,
+				ED17B8272401D3AD0033BC92 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B82D2401D3AE0033BC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED17B8442401D3AF0033BC92 /* Preview Assets.xcassets in Resources */,
+				ED17B8412401D3AF0033BC92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDCCA4C324017A31001E7960 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,8 +731,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDCCA50624017A6A001E7960 /* Assets.xcassets in Resources */,
-				EDCCA50424017A69001E7960 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,14 +738,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDCCA52124017A6B001E7960 /* Preview Assets.xcassets in Resources */,
-				EDCCA51E24017A6B001E7960 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		ED17B7F62401D3800033BC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED17B82B2401D3AE0033BC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED17B8572401D4070033BC92 /* MedView.swift in Sources */,
+				ED17B8532401D3D80033BC92 /* SelectTime.swift in Sources */,
+				ED17B8372401D3AE0033BC92 /* HostingController.swift in Sources */,
+				ED17B8352401D3AE0033BC92 /* ContentView.swift in Sources */,
+				ED17B83B2401D3AE0033BC92 /* NotificationController.swift in Sources */,
+				ED17B8392401D3AE0033BC92 /* ExtensionDelegate.swift in Sources */,
+				ED17B83D2401D3AE0033BC92 /* NotificationView.swift in Sources */,
+				ED17B83F2401D3AE0033BC92 /* ComplicationController.swift in Sources */,
+				ED17B8552401D3ED0033BC92 /* Timer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDCCA4C124017A31001E7960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -504,21 +797,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDCCA51424017A6B001E7960 /* HostingController.swift in Sources */,
-				EDCCA51224017A6B001E7960 /* ContentView.swift in Sources */,
-				EDCCA5322401856F001E7960 /* SelectTime.swift in Sources */,
-				EDCCA51824017A6B001E7960 /* NotificationController.swift in Sources */,
-				EDCCA51624017A6B001E7960 /* ExtensionDelegate.swift in Sources */,
-				EDCCA530240183C3001E7960 /* MedView.swift in Sources */,
-				ED17B7E52401BDB00033BC92 /* Timer.swift in Sources */,
-				EDCCA51A24017A6B001E7960 /* NotificationView.swift in Sources */,
-				EDCCA51C24017A6B001E7960 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		ED17B7EE2401D37E0033BC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED17B7EA2401D37E0033BC92 /* MediTracker WatchKit App */;
+			targetProxy = ED17B7ED2401D37E0033BC92 /* PBXContainerItemProxy */;
+		};
+		ED17B7FD2401D3800033BC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED17B7F92401D3800033BC92 /* MediTracker WatchKit Extension */;
+			targetProxy = ED17B7FC2401D3800033BC92 /* PBXContainerItemProxy */;
+		};
+		ED17B8232401D3AD0033BC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED17B81F2401D3AD0033BC92 /* MediTracki WatchKit App */;
+			targetProxy = ED17B8222401D3AD0033BC92 /* PBXContainerItemProxy */;
+		};
+		ED17B8322401D3AE0033BC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED17B82E2401D3AE0033BC92 /* MediTracki WatchKit Extension */;
+			targetProxy = ED17B8312401D3AE0033BC92 /* PBXContainerItemProxy */;
+		};
 		EDCCA4DD24017A33001E7960 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EDCCA4C424017A31001E7960 /* Medication Reminder */;
@@ -542,6 +846,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		ED17B8252401D3AD0033BC92 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED17B8262401D3AD0033BC92 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		EDCCA4D324017A33001E7960 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -550,17 +862,219 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		EDCCA50224017A69001E7960 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDCCA50324017A69001E7960 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		ED17B8102401D3810033BC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED17B8112401D3810033BC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED17B8132401D3810033BC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MediTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "MediTracker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		ED17B8142401D3810033BC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MediTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "MediTracker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		ED17B8162401D3810033BC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MediTracker WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MediTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		ED17B8172401D3810033BC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MediTracker WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MediTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		ED17B8482401D3AF0033BC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MediTracki WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MediTracki WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracki.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		ED17B8492401D3AF0033BC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MediTracki WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MediTracki WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracki.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		ED17B84C2401D3AF0033BC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MediTracki_WatchKit_Extension;
+				INFOPLIST_FILE = "MediTracki WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracki.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		ED17B84D2401D3AF0033BC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MediTracki_WatchKit_Extension;
+				INFOPLIST_FILE = "MediTracki WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracki.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		ED17B8502401D3AF0033BC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED17B8512401D3AF0033BC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MediTracki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		EDCCA4ED24017A33001E7960 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -842,7 +1356,6 @@
 		EDCCA52924017A6B001E7960 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				IBSC_MODULE = MedTaker_WatchKit_Extension;
@@ -860,7 +1373,6 @@
 		EDCCA52A24017A6B001E7960 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				IBSC_MODULE = MedTaker_WatchKit_Extension;
@@ -902,6 +1414,60 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		ED17B8182401D3810033BC92 /* Build configuration list for PBXNativeTarget "MediTracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED17B8162401D3810033BC92 /* Debug */,
+				ED17B8172401D3810033BC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED17B8192401D3810033BC92 /* Build configuration list for PBXNativeTarget "MediTracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED17B8132401D3810033BC92 /* Debug */,
+				ED17B8142401D3810033BC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED17B81A2401D3810033BC92 /* Build configuration list for PBXNativeTarget "MediTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED17B8102401D3810033BC92 /* Debug */,
+				ED17B8112401D3810033BC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED17B8472401D3AF0033BC92 /* Build configuration list for PBXNativeTarget "MediTracki WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED17B8482401D3AF0033BC92 /* Debug */,
+				ED17B8492401D3AF0033BC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED17B84B2401D3AF0033BC92 /* Build configuration list for PBXNativeTarget "MediTracki WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED17B84C2401D3AF0033BC92 /* Debug */,
+				ED17B84D2401D3AF0033BC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED17B84F2401D3AF0033BC92 /* Build configuration list for PBXNativeTarget "MediTracki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED17B8502401D3AF0033BC92 /* Debug */,
+				ED17B8512401D3AF0033BC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EDCCA4C024017A31001E7960 /* Build configuration list for PBXProject "Medication Reminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
