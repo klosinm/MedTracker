@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED17B7E52401BDB00033BC92 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B7E42401BDB00033BC92 /* Timer.swift */; };
+		EDCCA4C924017A31001E7960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4C824017A31001E7960 /* AppDelegate.swift */; };
+		EDCCA4CB24017A31001E7960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4CA24017A31001E7960 /* SceneDelegate.swift */; };
+		EDCCA4CD24017A31001E7960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4CC24017A31001E7960 /* ContentView.swift */; };
+		EDCCA4CF24017A33001E7960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA4CE24017A33001E7960 /* Assets.xcassets */; };
+		EDCCA4D224017A33001E7960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA4D124017A33001E7960 /* Preview Assets.xcassets */; };
+		EDCCA4D524017A33001E7960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA4D324017A33001E7960 /* LaunchScreen.storyboard */; };
+		EDCCA4E024017A33001E7960 /* Medication_ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4DF24017A33001E7960 /* Medication_ReminderTests.swift */; };
+		EDCCA4EB24017A33001E7960 /* Medication_ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA4EA24017A33001E7960 /* Medication_ReminderUITests.swift */; };
+		EDCCA4FE24017A69001E7960 /* MedTaker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EDCCA4FD24017A69001E7960 /* MedTaker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDCCA50424017A69001E7960 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA50224017A69001E7960 /* Interface.storyboard */; };
+		EDCCA50624017A6A001E7960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA50524017A6A001E7960 /* Assets.xcassets */; };
+		EDCCA50D24017A6B001E7960 /* MedTaker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDCCA50C24017A6B001E7960 /* MedTaker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDCCA51224017A6B001E7960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51124017A6B001E7960 /* ContentView.swift */; };
+		EDCCA51424017A6B001E7960 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51324017A6B001E7960 /* HostingController.swift */; };
+		EDCCA51624017A6B001E7960 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51524017A6B001E7960 /* ExtensionDelegate.swift */; };
+		EDCCA51824017A6B001E7960 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51724017A6B001E7960 /* NotificationController.swift */; };
+		EDCCA51A24017A6B001E7960 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51924017A6B001E7960 /* NotificationView.swift */; };
+		EDCCA51C24017A6B001E7960 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA51B24017A6B001E7960 /* ComplicationController.swift */; };
+		EDCCA51E24017A6B001E7960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA51D24017A6B001E7960 /* Assets.xcassets */; };
+		EDCCA52124017A6B001E7960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCA52024017A6B001E7960 /* Preview Assets.xcassets */; };
+		EDCCA530240183C3001E7960 /* MedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA52F240183C3001E7960 /* MedView.swift */; };
+		EDCCA5322401856F001E7960 /* SelectTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCA5312401856F001E7960 /* SelectTime.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDCCA4DC24017A33001E7960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCCA4C424017A31001E7960;
+			remoteInfo = "Medication Reminder";
+		};
+		EDCCA4E724017A33001E7960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCCA4C424017A31001E7960;
+			remoteInfo = "Medication Reminder";
+		};
+		EDCCA4FF24017A69001E7960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCCA4FC24017A69001E7960;
+			remoteInfo = "MedTaker WatchKit App";
+		};
+		EDCCA50E24017A6B001E7960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCA4BD24017A31001E7960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCCA50B24017A6B001E7960;
+			remoteInfo = "MedTaker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDCCA52724017A6B001E7960 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDCCA50D24017A6B001E7960 /* MedTaker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA52B24017A6B001E7960 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EDCCA4FE24017A69001E7960 /* MedTaker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED17B7E42401BDB00033BC92 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		EDCCA4C524017A31001E7960 /* Medication Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medication Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCA4C824017A31001E7960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDCCA4CA24017A31001E7960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDCCA4CC24017A31001E7960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDCCA4CE24017A33001E7960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDCCA4D124017A33001E7960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDCCA4D424017A33001E7960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDCCA4D624017A33001E7960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCCA4DB24017A33001E7960 /* Medication ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medication ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCA4DF24017A33001E7960 /* Medication_ReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication_ReminderTests.swift; sourceTree = "<group>"; };
+		EDCCA4E124017A33001E7960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCCA4E624017A33001E7960 /* Medication ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medication ReminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCA4EA24017A33001E7960 /* Medication_ReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication_ReminderUITests.swift; sourceTree = "<group>"; };
+		EDCCA4EC24017A33001E7960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCCA4FA24017A69001E7960 /* MedTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCA4FD24017A69001E7960 /* MedTaker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MedTaker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCA50324017A69001E7960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EDCCA50524017A6A001E7960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDCCA50724017A6A001E7960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCCA50C24017A6B001E7960 /* MedTaker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MedTaker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCA51124017A6B001E7960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDCCA51324017A6B001E7960 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		EDCCA51524017A6B001E7960 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EDCCA51724017A6B001E7960 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EDCCA51924017A6B001E7960 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		EDCCA51B24017A6B001E7960 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EDCCA51D24017A6B001E7960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDCCA52024017A6B001E7960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDCCA52224017A6B001E7960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCCA52324017A6B001E7960 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EDCCA52F240183C3001E7960 /* MedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedView.swift; sourceTree = "<group>"; };
+		EDCCA5312401856F001E7960 /* SelectTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTime.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCCA4C224017A31001E7960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA4D824017A33001E7960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA4E324017A33001E7960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA50924017A6B001E7960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCCA4BC24017A31001E7960 = {
+			isa = PBXGroup;
+			children = (
+				EDCCA4C724017A31001E7960 /* Medication Reminder */,
+				EDCCA4DE24017A33001E7960 /* Medication ReminderTests */,
+				EDCCA4E924017A33001E7960 /* Medication ReminderUITests */,
+				EDCCA50124017A69001E7960 /* MedTaker WatchKit App */,
+				EDCCA51024017A6B001E7960 /* MedTaker WatchKit Extension */,
+				EDCCA4C624017A31001E7960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCCA4C624017A31001E7960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCA4C524017A31001E7960 /* Medication Reminder.app */,
+				EDCCA4DB24017A33001E7960 /* Medication ReminderTests.xctest */,
+				EDCCA4E624017A33001E7960 /* Medication ReminderUITests.xctest */,
+				EDCCA4FA24017A69001E7960 /* MedTaker.app */,
+				EDCCA4FD24017A69001E7960 /* MedTaker WatchKit App.app */,
+				EDCCA50C24017A6B001E7960 /* MedTaker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCCA4C724017A31001E7960 /* Medication Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCA4C824017A31001E7960 /* AppDelegate.swift */,
+				EDCCA4CA24017A31001E7960 /* SceneDelegate.swift */,
+				EDCCA4CC24017A31001E7960 /* ContentView.swift */,
+				EDCCA4CE24017A33001E7960 /* Assets.xcassets */,
+				EDCCA4D324017A33001E7960 /* LaunchScreen.storyboard */,
+				EDCCA4D624017A33001E7960 /* Info.plist */,
+				EDCCA4D024017A33001E7960 /* Preview Content */,
+			);
+			path = "Medication Reminder";
+			sourceTree = "<group>";
+		};
+		EDCCA4D024017A33001E7960 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCA4D124017A33001E7960 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDCCA4DE24017A33001E7960 /* Medication ReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCA4DF24017A33001E7960 /* Medication_ReminderTests.swift */,
+				EDCCA4E124017A33001E7960 /* Info.plist */,
+			);
+			path = "Medication ReminderTests";
+			sourceTree = "<group>";
+		};
+		EDCCA4E924017A33001E7960 /* Medication ReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCA4EA24017A33001E7960 /* Medication_ReminderUITests.swift */,
+				EDCCA4EC24017A33001E7960 /* Info.plist */,
+			);
+			path = "Medication ReminderUITests";
+			sourceTree = "<group>";
+		};
+		EDCCA50124017A69001E7960 /* MedTaker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCA50224017A69001E7960 /* Interface.storyboard */,
+				EDCCA50524017A6A001E7960 /* Assets.xcassets */,
+				EDCCA50724017A6A001E7960 /* Info.plist */,
+			);
+			path = "MedTaker WatchKit App";
+			sourceTree = "<group>";
+		};
+		EDCCA51024017A6B001E7960 /* MedTaker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCA51124017A6B001E7960 /* ContentView.swift */,
+				EDCCA5312401856F001E7960 /* SelectTime.swift */,
+				ED17B7E42401BDB00033BC92 /* Timer.swift */,
+				EDCCA52F240183C3001E7960 /* MedView.swift */,
+				EDCCA51324017A6B001E7960 /* HostingController.swift */,
+				EDCCA51524017A6B001E7960 /* ExtensionDelegate.swift */,
+				EDCCA51724017A6B001E7960 /* NotificationController.swift */,
+				EDCCA51924017A6B001E7960 /* NotificationView.swift */,
+				EDCCA51B24017A6B001E7960 /* ComplicationController.swift */,
+				EDCCA51D24017A6B001E7960 /* Assets.xcassets */,
+				EDCCA52224017A6B001E7960 /* Info.plist */,
+				EDCCA52324017A6B001E7960 /* PushNotificationPayload.apns */,
+				EDCCA51F24017A6B001E7960 /* Preview Content */,
+			);
+			path = "MedTaker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EDCCA51F24017A6B001E7960 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCA52024017A6B001E7960 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCCA4C424017A31001E7960 /* Medication Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCCA4EF24017A33001E7960 /* Build configuration list for PBXNativeTarget "Medication Reminder" */;
+			buildPhases = (
+				EDCCA4C124017A31001E7960 /* Sources */,
+				EDCCA4C224017A31001E7960 /* Frameworks */,
+				EDCCA4C324017A31001E7960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medication Reminder";
+			productName = "Medication Reminder";
+			productReference = EDCCA4C524017A31001E7960 /* Medication Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDCCA4DA24017A33001E7960 /* Medication ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCCA4F224017A33001E7960 /* Build configuration list for PBXNativeTarget "Medication ReminderTests" */;
+			buildPhases = (
+				EDCCA4D724017A33001E7960 /* Sources */,
+				EDCCA4D824017A33001E7960 /* Frameworks */,
+				EDCCA4D924017A33001E7960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCCA4DD24017A33001E7960 /* PBXTargetDependency */,
+			);
+			name = "Medication ReminderTests";
+			productName = "Medication ReminderTests";
+			productReference = EDCCA4DB24017A33001E7960 /* Medication ReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDCCA4E524017A33001E7960 /* Medication ReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCCA4F524017A33001E7960 /* Build configuration list for PBXNativeTarget "Medication ReminderUITests" */;
+			buildPhases = (
+				EDCCA4E224017A33001E7960 /* Sources */,
+				EDCCA4E324017A33001E7960 /* Frameworks */,
+				EDCCA4E424017A33001E7960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCCA4E824017A33001E7960 /* PBXTargetDependency */,
+			);
+			name = "Medication ReminderUITests";
+			productName = "Medication ReminderUITests";
+			productReference = EDCCA4E624017A33001E7960 /* Medication ReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EDCCA4F924017A69001E7960 /* MedTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCCA52C24017A6B001E7960 /* Build configuration list for PBXNativeTarget "MedTaker" */;
+			buildPhases = (
+				EDCCA4F824017A69001E7960 /* Resources */,
+				EDCCA52B24017A6B001E7960 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCCA50024017A69001E7960 /* PBXTargetDependency */,
+			);
+			name = MedTaker;
+			productName = MedTaker;
+			productReference = EDCCA4FA24017A69001E7960 /* MedTaker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		EDCCA4FC24017A69001E7960 /* MedTaker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCCA52824017A6B001E7960 /* Build configuration list for PBXNativeTarget "MedTaker WatchKit App" */;
+			buildPhases = (
+				EDCCA4FB24017A69001E7960 /* Resources */,
+				EDCCA52724017A6B001E7960 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCCA50F24017A6B001E7960 /* PBXTargetDependency */,
+			);
+			name = "MedTaker WatchKit App";
+			productName = "MedTaker WatchKit App";
+			productReference = EDCCA4FD24017A69001E7960 /* MedTaker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EDCCA50B24017A6B001E7960 /* MedTaker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCCA52424017A6B001E7960 /* Build configuration list for PBXNativeTarget "MedTaker WatchKit Extension" */;
+			buildPhases = (
+				EDCCA50824017A6B001E7960 /* Sources */,
+				EDCCA50924017A6B001E7960 /* Frameworks */,
+				EDCCA50A24017A6B001E7960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MedTaker WatchKit Extension";
+			productName = "MedTaker WatchKit Extension";
+			productReference = EDCCA50C24017A6B001E7960 /* MedTaker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCCA4BD24017A31001E7960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Monica Klosin";
+				TargetAttributes = {
+					EDCCA4C424017A31001E7960 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EDCCA4DA24017A33001E7960 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EDCCA4C424017A31001E7960;
+					};
+					EDCCA4E524017A33001E7960 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EDCCA4C424017A31001E7960;
+					};
+					EDCCA4F924017A69001E7960 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EDCCA4FC24017A69001E7960 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EDCCA50B24017A6B001E7960 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EDCCA4C024017A31001E7960 /* Build configuration list for PBXProject "Medication Reminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDCCA4BC24017A31001E7960;
+			productRefGroup = EDCCA4C624017A31001E7960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCCA4C424017A31001E7960 /* Medication Reminder */,
+				EDCCA4DA24017A33001E7960 /* Medication ReminderTests */,
+				EDCCA4E524017A33001E7960 /* Medication ReminderUITests */,
+				EDCCA4F924017A69001E7960 /* MedTaker */,
+				EDCCA4FC24017A69001E7960 /* MedTaker WatchKit App */,
+				EDCCA50B24017A6B001E7960 /* MedTaker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCCA4C324017A31001E7960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCA4D524017A33001E7960 /* LaunchScreen.storyboard in Resources */,
+				EDCCA4D224017A33001E7960 /* Preview Assets.xcassets in Resources */,
+				EDCCA4CF24017A33001E7960 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA4D924017A33001E7960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA4E424017A33001E7960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA4F824017A69001E7960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA4FB24017A69001E7960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCA50624017A6A001E7960 /* Assets.xcassets in Resources */,
+				EDCCA50424017A69001E7960 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA50A24017A6B001E7960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCA52124017A6B001E7960 /* Preview Assets.xcassets in Resources */,
+				EDCCA51E24017A6B001E7960 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCCA4C124017A31001E7960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCA4C924017A31001E7960 /* AppDelegate.swift in Sources */,
+				EDCCA4CB24017A31001E7960 /* SceneDelegate.swift in Sources */,
+				EDCCA4CD24017A31001E7960 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA4D724017A33001E7960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCA4E024017A33001E7960 /* Medication_ReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA4E224017A33001E7960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCA4EB24017A33001E7960 /* Medication_ReminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCA50824017A6B001E7960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCA51424017A6B001E7960 /* HostingController.swift in Sources */,
+				EDCCA51224017A6B001E7960 /* ContentView.swift in Sources */,
+				EDCCA5322401856F001E7960 /* SelectTime.swift in Sources */,
+				EDCCA51824017A6B001E7960 /* NotificationController.swift in Sources */,
+				EDCCA51624017A6B001E7960 /* ExtensionDelegate.swift in Sources */,
+				EDCCA530240183C3001E7960 /* MedView.swift in Sources */,
+				ED17B7E52401BDB00033BC92 /* Timer.swift in Sources */,
+				EDCCA51A24017A6B001E7960 /* NotificationView.swift in Sources */,
+				EDCCA51C24017A6B001E7960 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDCCA4DD24017A33001E7960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCCA4C424017A31001E7960 /* Medication Reminder */;
+			targetProxy = EDCCA4DC24017A33001E7960 /* PBXContainerItemProxy */;
+		};
+		EDCCA4E824017A33001E7960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCCA4C424017A31001E7960 /* Medication Reminder */;
+			targetProxy = EDCCA4E724017A33001E7960 /* PBXContainerItemProxy */;
+		};
+		EDCCA50024017A69001E7960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCCA4FC24017A69001E7960 /* MedTaker WatchKit App */;
+			targetProxy = EDCCA4FF24017A69001E7960 /* PBXContainerItemProxy */;
+		};
+		EDCCA50F24017A6B001E7960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCCA50B24017A6B001E7960 /* MedTaker WatchKit Extension */;
+			targetProxy = EDCCA50E24017A6B001E7960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDCCA4D324017A33001E7960 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCCA4D424017A33001E7960 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDCCA50224017A69001E7960 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCCA50324017A69001E7960 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDCCA4ED24017A33001E7960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDCCA4EE24017A33001E7960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCCA4F024017A33001E7960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Medication Reminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Medication Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klosinm.Medication-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCCA4F124017A33001E7960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Medication Reminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Medication Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klosinm.Medication-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDCCA4F324017A33001E7960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Medication ReminderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klosinm.Medication-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medication Reminder.app/Medication Reminder";
+			};
+			name = Debug;
+		};
+		EDCCA4F424017A33001E7960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Medication ReminderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klosinm.Medication-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medication Reminder.app/Medication Reminder";
+			};
+			name = Release;
+		};
+		EDCCA4F624017A33001E7960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Medication ReminderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klosinm.Medication-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Medication Reminder";
+			};
+			name = Debug;
+		};
+		EDCCA4F724017A33001E7960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Medication ReminderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "klosinm.Medication-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Medication Reminder";
+			};
+			name = Release;
+		};
+		EDCCA52524017A6B001E7960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MedTaker WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MedTaker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MedTaker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		EDCCA52624017A6B001E7960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MedTaker WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MedTaker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MedTaker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		EDCCA52924017A6B001E7960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MedTaker_WatchKit_Extension;
+				INFOPLIST_FILE = "MedTaker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MedTaker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		EDCCA52A24017A6B001E7960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MedTaker_WatchKit_Extension;
+				INFOPLIST_FILE = "MedTaker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MedTaker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		EDCCA52D24017A6B001E7960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MedTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EDCCA52E24017A6B001E7960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = klosinm.MedTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCCA4C024017A31001E7960 /* Build configuration list for PBXProject "Medication Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCA4ED24017A33001E7960 /* Debug */,
+				EDCCA4EE24017A33001E7960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCCA4EF24017A33001E7960 /* Build configuration list for PBXNativeTarget "Medication Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCA4F024017A33001E7960 /* Debug */,
+				EDCCA4F124017A33001E7960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCCA4F224017A33001E7960 /* Build configuration list for PBXNativeTarget "Medication ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCA4F324017A33001E7960 /* Debug */,
+				EDCCA4F424017A33001E7960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCCA4F524017A33001E7960 /* Build configuration list for PBXNativeTarget "Medication ReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCA4F624017A33001E7960 /* Debug */,
+				EDCCA4F724017A33001E7960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCCA52424017A6B001E7960 /* Build configuration list for PBXNativeTarget "MedTaker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCA52524017A6B001E7960 /* Debug */,
+				EDCCA52624017A6B001E7960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCCA52824017A6B001E7960 /* Build configuration list for PBXNativeTarget "MedTaker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCA52924017A6B001E7960 /* Debug */,
+				EDCCA52A24017A6B001E7960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCCA52C24017A6B001E7960 /* Build configuration list for PBXNativeTarget "MedTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCA52D24017A6B001E7960 /* Debug */,
+				EDCCA52E24017A6B001E7960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDCCA4BD24017A31001E7960 /* Project object */;
+}
